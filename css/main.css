@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* seteando clases de fullpage para que no aparezca el espcio en blanco a la derecha */
+.fp-section.fp-table, .fp-slide.fp-table {
+  display: block;
+  width: auto;
+}
+.bg-all-image {
+  background-image: url("../vendors/img/people-woman-coffee-meeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+}
+.bg-rgba {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(255,0,0,0.3)
+}
